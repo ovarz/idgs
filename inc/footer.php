@@ -4,23 +4,23 @@
 	<div class="footer-socmed">
 	  <span>Follow us</span>
 	  <a aria-label="Facebook" alt="Facebook" class="footer-socmed-link flex_ori thumb-loading" rel="noopener" target="_blank"
-	  href="https://www.facebook.com/DBSentertainment">
+	  href="https://www.facebook.com/OfficialIndogamers">
 	    <img alt="Facebook" class="lazyload" data-original="img/icon/facebook.svg" />
 	  </a>
 	  <a aria-label="Instagram" alt="Instagram" class="footer-socmed-link" rel="noopener" target="_blank"
-	  href="https://www.instagram.com/viacreativehub/">
+	  href="https://www.instagram.com/idgsofficial/">
 	    <img alt="Instagram" class="lazyload" data-original="img/icon/instagram.svg" />
 	  </a>
 	  <a aria-label="Twitter" alt="Twitter" class="footer-socmed-link" rel="noopener" target="_blank"
-	  href="">
+	  href="https://twitter.com/IDGS_Community">
 	    <img alt="Twitter" class="lazyload" data-original="img/icon/twitter.svg" />
 	  </a>
 	  <a aria-label="Youtube" alt="Youtube" class="footer-socmed-link" rel="noopener" target="_blank"
-	  href="https://www.youtube.com/channel/UCxxbUAW57siweehySRUgJcA">
+	  href="https://www.youtube.com/user/idgscommunity">
 	    <img alt="Youtube" class="lazyload" data-original="img/icon/youtube.svg" />
 	  </a>
 	  <a aria-label="Linkedin" alt="Linkedin" class="footer-socmed-link" rel="noopener" target="_blank"
-	  href="https://id.linkedin.com/company/viayourcreativehub">
+	  href="https://www.linkedin.com/company/indogamers">
 	    <img alt="Linkedin" class="lazyload" data-original="img/icon/linkedin.svg" />
 	  </a>
 	</div>

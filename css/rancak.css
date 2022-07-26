@@ -28,7 +28,7 @@ body.body-margin{padding-top:var(--size-6);}
 .btn, a.btn, button.btn{padding:var(--size-3) var(--size-4); font-weight:normal; -webkit-appearance:none; text-transform:capitalize; 
 display:flex; text-align:center; align-items:center; justify-content:center;}
 .content_center{display:flex; justify-content:center; align-items:center;}
-.sticky-link{height:var(--size-6); position:relative;}
+.sticky-link{height:var(--size-6); position:relative; font-weight:bold;}
 .width-max{position:relative; width:100%; max-width:var(--site-container); margin:0 auto;}
 
 
@@ -46,11 +46,11 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 
 
 
-header{--icon-size:24px; position:fixed; z-index:calc(var(--max-zindex) - 10000); top:0; left:0; width:100%;}
+header{--icon-size:16px; position:fixed; z-index:calc(var(--max-zindex) - 10000); top:0; left:0; width:100%;}
 header > .width-max{display:flex; justify-content:space-between;}
-header .sticky-link{padding:0 var(--size-3);}
+header .sticky-link{padding:0 var(--size-3); font-size:var(--icon-size);}
 header .sticky-link .svgicon, header .main-logo{width:auto;}
-header .main-logo{height:calc(var(--icon-size) + 10px);}
+header .main-logo{height:calc(var(--icon-size) + 20px);}
 header .sticky-link .svgicon{height:var(--icon-size);}
 
 
@@ -77,7 +77,11 @@ header .sticky-link .svgicon{height:var(--icon-size);}
   
   
   header .sticky-logo{padding-left:var(--size-4);}
-  header .sticky-menu-open{padding-right:var(--size-4);}
+  header .sticky-menu-open{--icon-size:24px; padding-right:var(--size-4);}
+  
+  
+  
+  menu{display:none;}
   
   
   

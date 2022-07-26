@@ -2,9 +2,10 @@
 .sticky-link > span{position:relative;}
   
   
-  
+
+header .width-max > *{display:flex;}
 header .sticky-logo{padding-left:var(--size-5);}
-header .sticky-search-open{padding-right:var(--size-5);}
+header .wifi-coin-button{margin-right:var(--size-4);}
 
 
 
