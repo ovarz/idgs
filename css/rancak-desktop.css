@@ -18,6 +18,10 @@ body.body-margin .rancak-container{margin-top:var(--size-5);}
 .column-left{margin-left:var(--size-5);}
 .column-right{margin-right:var(--size-5);}
 .column-sticky{position:-webkit-sticky; position:sticky; top:var(--size-7); padding-bottom:0.1px;}
+.column-allcategory{grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); grid-column-gap:var(--size-6);}
+
+.column-big .content-link{--thumb-size:224px; grid-gap:var(--size-4);}
+.column-big .content-thumb-frame:before{padding-top:56.25%;}
 
 
 

@@ -1,7 +1,7 @@
 :root, :before, :after{
   --bg-2:#FFFFFF; 
   --color-border:0 0 0;
-  --color-text-1:#616161; 
+  --color-text-1:#757575; 
   --color-text-2:#212121; 
   --color-text-3:#F44336;
   --rounded-1:var(--size-2);
@@ -19,9 +19,9 @@ body, html{color:var(--color-text-1);}
 body.freeze-scroll{overflow:hidden;}
 a, .btn, button{transition:var(--transition-default); cursor:pointer}
 a, button{color:var(--color-text-2); fill:var(--color-text-2);}
-a:hover, button:hover{color:var(--color-text-8); fill:var(--color-text-8);}
-.btn, a.btn, button.btn{background-color:var(--color-text-3); color:var(--color-text-2); fill:var(--color-text-2); border-radius:var(--rounded-2);}
-.btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-text-8); color:var(--color-text-2); fill:var(--color-text-2);}
+a:hover, button:hover{color:var(--color-text-3); fill:var(--color-text-3);}
+.btn, a.btn, button.btn{background-color:var(--color-text-3); color:var(--bg-1); fill:var(--bg-1); border-radius:var(--rounded-2);}
+.btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-text-2);}
 .flex_ori > img{opacity:0; transition:all 300ms;}
 .flex_ori > img.lazyloaded{opacity:1;}
 .sticky-curr{color:var(--color-text-3); fill:var(--color-text-3);}
@@ -32,8 +32,8 @@ a:hover, button:hover{color:var(--color-text-8); fill:var(--color-text-8);}
 
 
 .section-title-name{color:var(--color-text-2);}
-.section-title-link{color:var(--color-text-5);}
-.section-title-link:hover{color:var(--color-text-8);}
+.section-title-link, .section-more{color:var(--color-text-3); fill:var(--color-text-3);}
+.section-title-link:hover, .section-more:hover{color:var(--color-text-2); fill:var(--color-text-2);}
 
 
 
@@ -47,6 +47,13 @@ header .sticky-link{position:relative; z-index:2000;}
 
 
 nav{background-color:var(--bg-2);}
+
+
+
+.content-thumb-frame{border-radius:var(--rounded-1); overflow:hidden; transition:var(--transition-default);}
+.content-link:hover .content-thumb-frame{opacity:var(--hover-opacity);}
+.content-link-category, .content-link-date, .content-link-desc{color:var(--color-text-1);}
+.content-link-category{border-color:rgb(var(--color-border) / 21%);}
 
 
 
