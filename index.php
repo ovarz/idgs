@@ -1,8 +1,7 @@
 <?php 
-  $body_margin='yes';
   $page='home';
   $category='home';
-  $login='no';  
+  $subcategory='';
   $share='no'; 
   $search_page='search/'; 
   require ('inc/base.php')
@@ -10,7 +9,7 @@
 <?php require ($_SERVER['IDGS'].'inc/sample.php')?>
 <?php require ($_SERVER['IDGS'].'inc/meta.php')?>
 <?php require ($_SERVER['IDGS'].'inc/header.php')?>
-<h1 class="hide">VIAHUB <?php echo $category; ?></h1>
+<h1 class="hide">IDGS <?php echo $category; ?></h1>
 <div class="rancak-container">
   <span class="width-max">
     <div class="main-container">
@@ -55,21 +54,7 @@
 	
 	
 	
-	  <div class="column-right column-small">
-	    <div class="column-container column-sticky">
-		  <section aria-label="Section" class="section-container content-list">
-		    <div class="section-title">
-			  <div class="section-title-name">Trending</div>
-			</div>
-		    <div class="content-list-container">
-			  <?php for ($i=1; $i <= 10 ; $i++) { ?>
-			    <?php $show_category='yes'; $show_description='no'; $category_link='playstation'; 
-				require ($_SERVER['IDGS'].'module/content-list.php') ?>
-			  <?php } ?>
-			</div>
-		  </section>
-		</div>
-	  </div>
+	  <?php require ($_SERVER['IDGS'].'inc/sidebar.php')?>
 	
 	
 	

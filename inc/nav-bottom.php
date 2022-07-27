@@ -14,4 +14,10 @@
     <?php require ($_SERVER['IDGS'].'img/icon/search.svg')?>
 	<span class="sticky-label">Cari</span>
   </button>
+  <?php if($share == 'yes') { ?>
+  <button title="Share" class="sticky-link open-sticky sticky-share content_center">
+    <?php require ($_SERVER['IDGS'].'img/icon/share.svg')?>
+	<span class="sticky-label">Share</span>
+  </button>
+  <?php } ?>
 </nav>

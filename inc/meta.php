@@ -18,6 +18,9 @@
 <link rel="preload" href="fonts/nunito/XRXV3I6Li01BKofINeaB.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="img/logo.svg" as="image">
 <link rel="preload" href="css/rancak.css?<?php echo $anticache; ?>" as="style">
+<?php if($page == 'detail') { ?>
+  <link rel="preload" href="css/detail.css?<?php echo $anticache; ?>" as="style">
+<?php } ?>
 <link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
 
 <style><?php require ($_SERVER['IDGS'].'css/font.css')?></style>
@@ -34,5 +37,8 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
 
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
 <link rel="stylesheet" type="text/css" href="css/rancak-desktop.css?<?php echo $anticache; ?>" media="(min-width:1024px)">
+<?php if($page == 'detail') { ?>
+  <link rel="stylesheet" type="text/css" href="css/detail.css?<?php echo $anticache; ?>"/>
+<?php } ?>
 </head>
-<body <?php if($body_margin == 'yes') { ?>class="body-margin"<?php } ?>>
+<body>

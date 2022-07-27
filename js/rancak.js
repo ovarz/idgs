@@ -22,14 +22,23 @@ var open_sticky = function(){
   "use strict";
   $('.open-sticky').click(function(){
     var get_id = $(this).attr('title');
-	$(this).toggleClass('show-sticky');
-	$('.open-sticky').not(this).removeClass('show-sticky');
+	$('.open-sticky[title=' + get_id +']').toggleClass('show-sticky');
+	$('.open-sticky').not('.open-sticky[title=' + get_id +']').removeClass('show-sticky');
     $('#float-' + get_id).slideToggle('fast');
-    $('.float-bottom').not('#float-' + get_id).slideUp('fast');
-	$('.popup-play-video').slideUp('fast');
-	$('.ppv-box > iframe').attr('src','');
+    $('.rancak-popup').not('#float-' + get_id).slideUp('fast');
     return false;
   });	
+};
+
+
+
+var close_share = function(){
+  "use strict";
+  $('.popup-share-overlay, .popup-share-close').click(function(){
+	$('.popup-share').slideUp('fast');
+	$('.open-sticky').removeClass('show-sticky');
+	return false;
+  });
 };
 
 
@@ -46,8 +55,18 @@ function CopyURL(text) {
 
 
 
+function CopyLink() {
+  var copyText = document.getElementById("CopyLinkField");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+}
+
+
+
 $(document).ready(function(){
   "use strict";
   all_scroll();
   open_sticky();
+  close_share();
 });

@@ -9,7 +9,11 @@ header .wifi-coin-button{margin-right:var(--size-4);}
 
 
 
-body.body-margin .rancak-container{margin-top:var(--size-5);}
+menu{display:flex !important; position:static !important; height:var(--size-6) !important;}
+
+
+
+.rancak-container{margin-top:var(--size-5);}
 .main-container{grid-template-columns:1fr 334px;}
 
 

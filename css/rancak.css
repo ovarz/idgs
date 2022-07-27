@@ -14,7 +14,7 @@
   --max-zindex:2147483648;
   --default-fontsize:14px;
   --title-fontsize:16px;
-  --bg-1:#FCFCFC; 
+  --bg-1:#FBFBFB; 
 }
 
 
@@ -23,8 +23,7 @@ body, html{font-family:'Nunito',sans-serif; font-size:var(--default-fontsize); f
 -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; 
 -moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed;}
 html{scroll-behavior:smooth;}
-body{background-color:var(--bg-1);}
-body.body-margin{padding-top:var(--size-6);}
+body{background-color:var(--bg-1); padding-top:var(--size-6);}
 .btn, a.btn, button.btn{padding:var(--size-3) var(--size-4); font-weight:normal; -webkit-appearance:none; text-transform:capitalize; 
 display:flex; text-align:center; align-items:center; justify-content:center;}
 .content_center{display:flex; justify-content:center; align-items:center;}
@@ -77,6 +76,15 @@ header .sticky-link .svgicon{height:var(--icon-size);}
 .content-link-title{font-size:var(--title-fontsize); font-weight:bold; margin-top:0 !important; line-height:150%;}
 .content-link-category{margin-right:var(--size-2); padding-right:var(--size-2); border-right:1px solid}
 .content-link-desc{line-height:150%;}
+
+
+
+.search-box{--button-width:89px; position:relative;}
+input.search-field{width:100%; padding:var(--size-3); border:1px solid; padding-right:calc(var(--button-width) + var(--size-3));}
+button.search-button{position:absolute; top:3px; right:3px; height:calc(100% - 6px); width:var(--button-width); font-size:18px;}
+.search-page{margin-bottom:calc(var(--size-3) * -1) !important;}
+.search-note{margin-top:var(--size-3); text-align:center;}
+
 
 
 
