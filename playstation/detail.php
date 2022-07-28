@@ -31,7 +31,7 @@
 	
 	  <div class="column-left column-big">
 	    <div class="column-container">
-		  <section aria-label="Section" class="section-container content-list">
+		  <section aria-label="Berita Terkait" class="section-container content-list">
 		    <div class="section-title">
 			  <div class="section-title-name">Berita Terkait</div>
 			</div>

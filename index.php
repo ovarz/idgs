@@ -9,7 +9,6 @@
 <?php require ($_SERVER['IDGS'].'inc/sample.php')?>
 <?php require ($_SERVER['IDGS'].'inc/meta.php')?>
 <?php require ($_SERVER['IDGS'].'inc/header.php')?>
-<h1 class="hide">IDGS <?php echo $category; ?></h1>
 <div class="rancak-container">
   <span class="width-max">
     <div class="main-container">
@@ -18,11 +17,20 @@
 	
 	
 	
-	  <div class="column-full">
+	  <div class="column-left column-big">
 	    <div class="column-container">
-		  <section aria-label="Section" class="section-container">
-		    <div>column-full</div>
-		  </section>
+		  <?php $show_category='yes'; require ($_SERVER['IDGS'].'module/headline.php')?>
+		</div>
+	  </div>
+	
+	
+	
+	
+	
+	  <div class="column-right column-small column-special">
+	    <div class="column-container">
+		  <?php require ($_SERVER['IDGS'].'iklan/iklan-300x250.php')?>
+		  <?php require ($_SERVER['IDGS'].'module/widget-wificoin.php')?>
 		</div>
 	  </div>
 	
@@ -32,7 +40,7 @@
 	
 	  <div class="column-left column-big">
 	    <div class="column-container">
-		  <section aria-label="Section" class="section-container content-list">
+		  <section aria-label="Terbaru" class="section-container content-list">
 		    <div class="section-title">
 			  <div class="section-title-name">Terbaru</div>
 			</div>
@@ -62,7 +70,7 @@
 	
 	  <div class="column-full">
 	    <div class="column-container column-allcategory">
-		  <section aria-label="Section" class="section-container content-list">
+		  <section aria-label="News" class="section-container content-list">
 		    <div class="section-title">
 			  <div class="section-title-name">News</div>
 			  <a aria-label="Link_Title" title="Link_Title" class="section-title-link" href="console/">
@@ -80,7 +88,7 @@
 		  
 		  
 		  
-		  <section aria-label="Section" class="section-container content-list">
+		  <section aria-label="PC" class="section-container content-list">
 		    <div class="section-title">
 			  <div class="section-title-name">PC</div>
 			  <a aria-label="Link_Title" title="Link_Title" class="section-title-link" href="console/">
@@ -98,7 +106,7 @@
 		  
 		  
 		  
-		  <section aria-label="Section" class="section-container content-list">
+		  <section aria-label="Console" class="section-container content-list">
 		    <div class="section-title">
 			  <div class="section-title-name">Console</div>
 			  <a aria-label="Link_Title" title="Link_Title" class="section-title-link" href="console/">
@@ -116,7 +124,7 @@
 		  
 		  
 		  
-		  <section aria-label="Section" class="section-container content-list">
+		  <section aria-label="Mobile" class="section-container content-list">
 		    <div class="section-title">
 			  <div class="section-title-name">Mobile</div>
 			  <a aria-label="Link_Title" title="Link_Title" class="section-title-link" href="console/">
@@ -134,7 +142,7 @@
 		  
 		  
 		  
-		  <section aria-label="Section" class="section-container content-list">
+		  <section aria-label="Esports" class="section-container content-list">
 		    <div class="section-title">
 			  <div class="section-title-name">Esports</div>
 			  <a aria-label="Link_Title" title="Link_Title" class="section-title-link" href="console/">

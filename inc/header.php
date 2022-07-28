@@ -3,7 +3,7 @@
 	<div class="header-left">
       <a aria-label="Home" title="Home" href="index.php"
 	  class="sticky-link <?php if($category == 'home') { ?>sticky-curr<?php } ?> sticky-logo content_center">
-	    <?php require ($_SERVER['IDGS'].'img/logo.svg')?>
+	    <?php require ($_SERVER['IDGS'].'img/idgs-logo.svg')?>
       </a>
 	</div>
   

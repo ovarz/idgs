@@ -73,7 +73,7 @@ header .sticky-link .svgicon{height:var(--icon-size);}
 .content-link-info > span{display:flex; flex-wrap:wrap;}
 .content-link-info > span > *{margin-top:var(--size-2);}
 .content-link-title, .content-link-desc{width:100%; display:-webkit-box; -webkit-box-orient:vertical; overflow:hidden; -webkit-line-clamp:2;}
-.content-link-title{font-size:var(--title-fontsize); font-weight:bold; margin-top:0 !important; line-height:150%;}
+.content-link-title{font-size:var(--title-fontsize); font-weight:bold; margin-top:0 !important; line-height:140%;}
 .content-link-category{margin-right:var(--size-2); padding-right:var(--size-2); border-right:1px solid}
 .content-link-desc{line-height:150%;}
 
@@ -84,6 +84,15 @@ input.search-field{width:100%; padding:var(--size-3); border:1px solid; padding-
 button.search-button{position:absolute; top:3px; right:3px; height:calc(100% - 6px); width:var(--button-width); font-size:18px;}
 .search-page{margin-bottom:calc(var(--size-3) * -1) !important;}
 .search-note{margin-top:var(--size-3); text-align:center;}
+
+
+
+.slotiklan{overflow:hidden; position:relative;}
+.slotiklan-300x250{contain-intrinsic-size:1px 250px; height:250px;}
+.slotiklan-320x50{contain-intrinsic-size:1px 50px; height:50px;}
+.slotiklan-728x90{contain-intrinsic-size:1px 90px; height:90px;}
+.slotiklan-970x200{contain-intrinsic-size:1px 200px; height:200px;}
+.slotiklan-320x100{contain-intrinsic-size:1px 100px; height:100px;}
 
 
 
