@@ -5,23 +5,23 @@
 	  <span>Follow us</span>
 	  <a aria-label="Facebook" alt="Facebook" class="footer-socmed-link flex_ori thumb-loading" rel="noopener" target="_blank"
 	  href="https://www.facebook.com/OfficialIndogamers">
-	    <img alt="Facebook" class="lazyload" data-original="img/icon/facebook.svg" />
+	    <img alt="Facebook" class="lazyload" width="18.38" height="21" data-original="img/icon/facebook.svg" />
 	  </a>
 	  <a aria-label="Instagram" alt="Instagram" class="footer-socmed-link" rel="noopener" target="_blank"
 	  href="https://www.instagram.com/idgsofficial/">
-	    <img alt="Instagram" class="lazyload" data-original="img/icon/instagram.svg" />
+	    <img alt="Instagram" class="lazyload" width="21" height="21" data-original="img/icon/instagram.svg" />
 	  </a>
 	  <a aria-label="Twitter" alt="Twitter" class="footer-socmed-link" rel="noopener" target="_blank"
 	  href="https://twitter.com/IDGS_Community">
-	    <img alt="Twitter" class="lazyload" data-original="img/icon/twitter.svg" />
+	    <img alt="Twitter" class="lazyload" width="21" height="21" data-original="img/icon/twitter.svg" />
 	  </a>
 	  <a aria-label="Youtube" alt="Youtube" class="footer-socmed-link" rel="noopener" target="_blank"
 	  href="https://www.youtube.com/user/idgscommunity">
-	    <img alt="Youtube" class="lazyload" data-original="img/icon/youtube.svg" />
+	    <img alt="Youtube" class="lazyload" width="30.14" height="21" data-original="img/icon/youtube.svg" />
 	  </a>
 	  <a aria-label="Linkedin" alt="Linkedin" class="footer-socmed-link" rel="noopener" target="_blank"
 	  href="https://www.linkedin.com/company/indogamers">
-	    <img alt="Linkedin" class="lazyload" data-original="img/icon/linkedin.svg" />
+	    <img alt="Linkedin" class="lazyload" width="18.38" height="21" data-original="img/icon/linkedin.svg" />
 	  </a>
 	</div>
 	
