@@ -26,5 +26,6 @@ background:linear-gradient(to bottom, transparent 34%, var(--color-text-2) 100%)
   .headline-container{grid-template-columns:repeat(3,1fr); border-radius:var(--rounded-2); overflow:hidden;}
   .headline .content-link:first-child{grid-column:1/4;}
   .headline .content-link:not(:first-child) .content-thumb-frame:before{padding-top:100%;}
+  .headline .content-link:first-child .content-link-title{font-size:21px;}
   
 }
