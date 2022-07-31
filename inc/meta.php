@@ -16,9 +16,9 @@
 <link href="img/favicon.ico?<?php echo $anticache; ?>" rel="icon" type="image/ico" />
 
 <link rel="preload" href="fonts/nunito/XRXV3I6Li01BKofINeaB.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="img/logo.svg" as="image">
 <link rel="preload" href="css/rancak.css?<?php echo $anticache; ?>" as="style">
 <?php if($page == 'detail') { ?>
+  <link rel="preload" href="img/sample/minisample-1.jpg" as="image">
   <link rel="preload" href="css/detail.css?<?php echo $anticache; ?>" as="style">
 <?php } ?>
 <link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
