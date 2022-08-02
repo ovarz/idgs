@@ -1,0 +1,40 @@
+.section-container{font-size:18px; line-height:160%;}
+
+
+
+.information-content{font-size:18px; line-height:160%; display:grid; grid-gap:var(--size-4);}
+.information-content ul, .information-content ol{padding-left:20px; display:grid; grid-gap:var(--size-4);}
+.information-content ul{list-style:square;}
+.information-content ol{list-style:decimal;}
+.information-content h2, .information-content h3, .information-content h4{font-weight:900; font-size:18px; line-height:150%;}
+.information-content b, .information-content strong{font-weight:900;}
+
+
+
+.peta-situs-list{padding-left:20px; list-style:disc;}
+.peta-situs-sub{list-style:circle;}
+.peta-situs-link{display:block; padding:var(--size-2) 0;}
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:1023px){
+  
+}
+
+
+
+
+
+@media screen and (min-width:1024px){
+  .main-container{grid-template-columns:1fr 450px;}
+}
+  
+  
+  
+  
+  
+@supports(-webkit-backdrop-filter:none) or (backdrop-filter:none){
+  
+}

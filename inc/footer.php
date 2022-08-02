@@ -28,28 +28,25 @@
 	
   
 	<div class="footer-menu">
-	  <a aria-label="Peta Situs" alt="Peta Situs" class="footer-menu-link" href="informasi/peta-situs.php">
+	  <a aria-label="Peta Situs" alt="Peta Situs" class="footer-menu-link" href="informasi/#peta-situs">
 	    Peta Situs
 	  </a>
-	  <a aria-label="Tentang Kami" alt="Tentang Kami" class="footer-menu-link" href="informasi/tentang-kami.php">
+	  <a aria-label="Tentang Kami" alt="Tentang Kami" class="footer-menu-link" href="informasi/#tentang-kami">
 	    Tentang Kami
 	  </a>
-	  <a aria-label="Kontak" alt="Kontak" class="footer-menu-link" href="informasi/kontak.php">
-	    Kontak
+	  <a aria-label="Kontak" alt="Kontak" class="footer-menu-link" href="informasi/#kontak-kami">
+	    Kontak Kami
 	  </a>
-	  <a aria-label="Info Iklan" alt="Info Iklan" class="footer-menu-link" href="informasi/info-iklan.php">
-	    Info Iklan
-	  </a>
-	  <a aria-label="Pedoman Media Siber" alt="Pedoman Media Siber" class="footer-menu-link" href="informasi/pedoman-media-siber.php">
+	  <a aria-label="Pedoman Media Siber" alt="Pedoman Media Siber" class="footer-menu-link" href="informasi/#pedoman-media-siber">
 	    Pedoman Media Siber
 	  </a>
-	  <a aria-label="Kebijakan Privasi" alt="Panduan Kebijakan" class="footer-menu-link" href="informasi/panduan-kebijakan.php">
+	  <a aria-label="Kebijakan Privasi" alt="Panduan Kebijakan" class="footer-menu-link" href="informasi/#panduan-kebijakan">
 	    Panduan Kebijakan
 	  </a>
-	  <a aria-label="Disclaimer" alt="Disclaimer" class="footer-menu-link" href="informasi/disclaimer.php">
+	  <a aria-label="Disclaimer" alt="Disclaimer" class="footer-menu-link" href="informasi/#disclaimer">
 	    Disclaimer
 	  </a>
-	  <a aria-label="Karir" alt="Karir" class="footer-menu-link" href="informasi/karir.php" target="_blank">
+	  <a aria-label="Karir" alt="Karir" class="footer-menu-link" href="informasi/#karir">
 	    Karir
 	  </a>
 	</div>

@@ -32,8 +32,6 @@ a:hover, button:hover{color:var(--color-text-3); fill:var(--color-text-3);}
 .thumb-loading:before{animation:skeleton-loading 0.5s linear infinite alternate; background-color:var(--color-text-2);}
 @-webkit-keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
 @keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
-.wifi-coin-button{background-color:#746eaa; color:var(--bg-2) !important; fill:var(--bg-2) !important;}
-.wifi-coin-button:hover{background-color:#412e5c;}
 
 
 
@@ -137,6 +135,10 @@ display:flex; justify-content:center; align-items:center; color:var(--bg-2);}
   
   
   
+  .wifi-coin-button{background-color:#746eaa; color:var(--bg-2) !important; fill:var(--bg-2) !important;}
+  
+  
+  
   nav{box-shadow:var(--shadow-default);}
 
 
@@ -153,6 +155,11 @@ display:flex; justify-content:center; align-items:center; color:var(--bg-2);}
 
 
 @media screen and (min-width:1024px){
+  .wifi-coin-button{color:#746eaa; font-weight:900; text-transform:uppercase;}
+  .wifi-coin-button:hover{color:#412e5c !important;}
+  
+  
+  
   .bacajuga{grid-template-columns:102px 1fr; grid-gap:var(--size-2);}
 
 

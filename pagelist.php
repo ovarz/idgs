@@ -59,14 +59,13 @@
                 <li>
                   <div class="pagelist-row">Halaman Informasi</div>  
                   <ul>
-                    <li><a class="pagelist-row" href="informasi/peta-situs.php">Peta Situs</a></li>
-                    <li><a class="pagelist-row" href="informasi/tentang-kami.php">Tentang Kami</a></li>
-                    <li><a class="pagelist-row" href="informasi/kontak-kami.php">Kontak</a></li>
-                    <li><a class="pagelist-row" href="informasi/info-iklan.php">Info Iklan</a></li>
-                    <li><a class="pagelist-row" href="informasi/pedoman-media-siber.php">Pedoman Media Siber</a></li>
-                    <li><a class="pagelist-row" href="informasi/panduan-kebijakan.php">Panduan Kebijakan</a></li>
-                    <li><a class="pagelist-row" href="informasi/disclaimer.php">Disclaimer</a></li>
-                    <li><a class="pagelist-row" href="informasi/karir.php">Karir</a></li>
+                    <li><a class="pagelist-row" href="informasi/#peta-situs">Peta Situs</a></li>
+                    <li><a class="pagelist-row" href="informasi/#tentang-kami">Tentang Kami</a></li>
+                    <li><a class="pagelist-row" href="informasi/#kontak-kami">Kontak Kami</a></li>
+                    <li><a class="pagelist-row" href="informasi/#pedoman-media-siber">Pedoman Media Siber</a></li>
+                    <li><a class="pagelist-row" href="informasi/#panduan-kebijakan">Panduan Kebijakan</a></li>
+                    <li><a class="pagelist-row" href="informasi/#disclaimer">Disclaimer</a></li>
+                    <li><a class="pagelist-row" href="informasi/#karir">Karir</a></li>
                   </ul>
                 </li>
 			  </ul>
