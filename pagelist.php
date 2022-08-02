@@ -44,11 +44,17 @@
                   </ul>
                 </li>
                 <li>
+                  <a class="pagelist-row" href="tag/">Halaman Tag</a>
+                </li>
+                <li>
                   <div class="pagelist-row">Halaman Pencarian</div>  
                   <ul>
                     <li><a class="pagelist-row" href="search/">Hasil Pencarian Default</a></li>
                     <li><a class="pagelist-row" href="search/empty.php">Hasil Pencarian Tidak Ditemukan</a></li>
                   </ul>
+                </li>
+                <li>
+                  <a class="pagelist-row" href="author/">Halaman Author</a>
                 </li>
                 <li>
                   <div class="pagelist-row">Halaman Informasi</div>  

@@ -91,7 +91,7 @@
 			</div>
 		    <div class="topic-list-container">
 			  <?php for ($i=1; $i <= 5 ; $i++) { ?>
-			    <a aria-label="img_title" title="img_title" class="btn topic-link" href="topic/">
+			    <a aria-label="img_title" title="img_title" class="btn topic-link" href="tag/">
 				  <?php echo $random_topic[array_rand($random_topic)]; ?>
 				</a>
 			  <?php } ?>

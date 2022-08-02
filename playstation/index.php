@@ -1,5 +1,5 @@
 <?php 
-  $page='category';
+  $page='subcategory';
   $category='console';
   $subcategory='playstation';
   $share='no'; 
