@@ -12,6 +12,10 @@
 	</menu>
   
 	<div class="header-right">
+	  <a aria-label="Wifi Coin" title="Wifi Coin" href="wifi-coin/"
+	  class="sticky-link <?php if($category == 'wifi-coin') { ?>sticky-curr<?php } ?> wifi-coin-button content_center desktop-only">
+	    <span>Wifi Coin</span>
+      </a>
 	  <?php if($share == 'yes') { ?>
 	  <button title="Share" class="sticky-link open-sticky sticky-share content_center desktop-only">
 		<?php require ($_SERVER['IDGS'].'img/icon/share.svg')?>
@@ -24,10 +28,6 @@
       <button title="Menu" class="sticky-link open-sticky sticky-menu-open content_center mobile-only">
 	    <?php require ($_SERVER['IDGS'].'img/icon/menu.svg')?>
       </button>
-	  <a aria-label="Wifi Coin" title="Wifi Coin" href="wifi-coin/"
-	  class="sticky-link <?php if($category == 'wifi-coin') { ?>sticky-curr<?php } ?> wifi-coin-button content_center desktop-only">
-	    <span>Wifi Coin</span>
-      </a>
 	</div>
   </span>
 </header>

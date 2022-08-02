@@ -1,0 +1,18 @@
+.category-carousel{margin-bottom:calc(var(--size-5) * -1) !important;}
+.category-link{height:48px; padding:0 var(--size-5); font-weight:bold;
+border:2px solid rgb(var(--color-border) / 8%); border-radius:var(--size-5);}
+
+
+
+@media screen and (min-width:0px) and (max-width:1023px){
+  .category-carousel{display:grid; grid-gap:var(--size-3); align-items:center; grid-auto-flow:column; grid-auto-columns:max-content; overflow-x:auto;
+  margin:var(--size-3) var(--size-4);}
+}
+
+
+
+@media screen and (min-width:1024px){
+  .rancak-container{margin-top:var(--size-3);}
+  .category-carousel{display:flex; justify-content:center;}
+  .category-link{margin:0 var(--size-2);}
+}

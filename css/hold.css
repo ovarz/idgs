@@ -23,7 +23,7 @@ body.freeze-scroll{overflow:hidden;}
 a, .btn, button{transition:var(--transition-default); cursor:pointer}
 a, button{color:var(--color-text-2); fill:var(--color-text-2);}
 a:hover, button:hover{color:var(--color-text-3); fill:var(--color-text-3);}
-.btn, a.btn, button.btn{background-color:var(--color-text-3); color:var(--bg-1); fill:var(--bg-1); border-radius:var(--rounded-2);}
+.btn, a.btn, button.btn{background-color:var(--color-text-3); color:var(--bg-1); fill:var(--bg-1); border-radius:var(--rounded-1);}
 .btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-text-2);}
 .flex_ori > img{opacity:0; transition:all 300ms;}
 .flex_ori > img.lazyloaded{opacity:1;}
@@ -32,6 +32,8 @@ a:hover, button:hover{color:var(--color-text-3); fill:var(--color-text-3);}
 .thumb-loading:before{animation:skeleton-loading 0.5s linear infinite alternate; background-color:var(--color-text-2);}
 @-webkit-keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
 @keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
+.wifi-coin-button{background-color:#746eaa; color:var(--bg-2) !important; fill:var(--bg-2) !important;}
+.wifi-coin-button:hover{background-color:#412e5c;}
 
 
 
@@ -55,6 +57,11 @@ nav{background-color:var(--bg-2);}
 
 
 
+.category-link:hover{border-color:var(--color-text-3); background-color:var(--color-text-3); color:var(--bg-1);}
+.category-curr{border-color:var(--color-text-3) !important; background-color:var(--bg-1) !important; color:var(--color-text-3) !important;}
+
+
+
 .content-thumb-frame{border-radius:var(--rounded-2); overflow:hidden; transition:var(--transition-default);}
 .content-link:hover .content-thumb-frame{opacity:var(--hover-opacity);}
 .content-link-category, .content-link-date, .content-link-desc{color:var(--color-text-1);}
@@ -66,6 +73,10 @@ nav{background-color:var(--bg-2);}
 .content-article-detail a{color:var(--color-text-3);}
 .content-article-detail a:hover{color:var(--color-text-1);}
 .content-article-summary{font-weight:bold; font-style:italic;}
+
+
+
+.bacajuga{display:grid;}
 
 
 
@@ -142,6 +153,10 @@ display:flex; justify-content:center; align-items:center; color:var(--bg-2);}
 
 
 @media screen and (min-width:1024px){
+  .bacajuga{grid-template-columns:102px 1fr; grid-gap:var(--size-2);}
+
+
+
   footer > .width-max{grid-template-columns:repeat(2,1fr);}
   .footer-socmed, .footer-copyright{grid-row:2/3;}
   .footer-socmed{grid-column:2/3; justify-content:flex-end;}

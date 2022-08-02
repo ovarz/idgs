@@ -6,7 +6,7 @@
   </a>
   <a aria-label="Wifi Coin" title="Wifi Coin" href="wifi-coin/"
   class="sticky-link <?php if($category == 'wifi-coin') { ?>sticky-curr<?php } ?> wifi-coin-button content_center">
-    <?php require ($_SERVER['IDGS'].'img/icon/home.svg')?>
+    <?php require ($_SERVER['IDGS'].'img/icon/wifi-coin.svg')?>
 	<span class="sticky-label">Wifi Coin</span>
   </a>
   <button title="Cari" 

@@ -1,6 +1,9 @@
 <div class="column-right column-small">
   <div class="column-container column-sticky">
     <?php require ($_SERVER['IDGS'].'iklan/iklan-300x250.php')?>
+	<?php if($page == 'detail') { ?>
+	  <?php require ($_SERVER['IDGS'].'module/widget-wificoin.php')?>
+	<?php } ?>
 	
 	
 	
