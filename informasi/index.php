@@ -29,6 +29,82 @@
 			  <p>Indogamers was founded in 2006 and still exist to the present day. We are always trying to bring new games with numerous genre to Indonesia, from Real-Time Strategy (RTS) such as Warcraft III and AION, or MMORPG like World of Warcraft. You can visit our forum at IDGS Forum, a forum dedicated as a beacon for Indonesian gamers.</p>
 			  <p>For our community, Indogamers community has been established in 2003 by Juny Maimun, better known as Acong, and several of his colleagues, at a time when gaming industry especially online game Industry in Indonesia has not yet been well developed. Our mission is to provide gaming community in Indonesia a platform to interact with ease.</p>
 			</div>
+			<div class="crew-list">
+			  <div class="crew-container">
+                <div class="crew-box">
+                  <div class="crew-thumb flex_ori thumb-loading">
+                    <img alt="img_title" class="lazyload" data-original="img/bagan.jpg"/>
+                  </div>
+                  <div class="crew-info">
+                    <div class="crew-name">Juny Maimun</div>
+                    <div class="crew-title">Owner</div>
+                  </div>
+                </div>
+				
+                <div class="crew-box">
+                  <div class="crew-thumb flex_ori thumb-loading">
+                    <img alt="img_title" class="lazyload" data-original="img/dono.jpg"/>
+                  </div>
+                  <div class="crew-info">
+                    <div class="crew-name">Dono</div>
+                    <div class="crew-title">Founder</div>
+                  </div>
+                </div>
+				
+                <div class="crew-box">
+                  <div class="crew-thumb flex_ori thumb-loading">
+                    <img alt="img_title" class="lazyload" data-original="img/chickebum.jpg"/>
+                  </div>
+                  <div class="crew-info">
+                    <div class="crew-name">Chickebum</div>
+                    <div class="crew-title">Founder</div>
+                  </div>
+                </div>
+			  </div>
+			  
+			  
+			  <div class="crew-container">
+                <div class="crew-box">
+                  <div class="crew-thumb flex_ori thumb-loading">
+                    <img alt="img_title" class="lazyload" data-original="img/abenx.jpg"/>
+                  </div>
+                  <div class="crew-info">
+                    <div class="crew-name">Abenx Hudono</div>
+                    <div class="crew-title">Business Development Executive</div>
+                  </div>
+                </div>
+				
+                <div class="crew-box">
+                  <div class="crew-thumb flex_ori thumb-loading">
+                    <img alt="img_title" class="lazyload" data-original="img/dejeer.jpg"/>
+                  </div>
+                  <div class="crew-info">
+                    <div class="crew-name">Rudy Dejeer</div>
+                    <div class="crew-title">Chief Editor & Community Manager</div>
+                  </div>
+                </div>
+				
+                <div class="crew-box">
+                  <div class="crew-thumb flex_ori thumb-loading">
+                    <img alt="img_title" class="lazyload" data-original="img/abi.jpg"/>
+                  </div>
+                  <div class="crew-info">
+                    <div class="crew-name">Stefanus Wahyu</div>
+                    <div class="crew-title">Content Writer</div>
+                  </div>
+                </div>
+				
+                <div class="crew-box">
+                  <div class="crew-thumb flex_ori thumb-loading">
+                    <img alt="img_title" class="lazyload" data-original="img/gadis.jpg"/>
+                  </div>
+                  <div class="crew-info">
+                    <div class="crew-name">Gadis</div>
+                    <div class="crew-title">Mascot</div>
+                  </div>
+                </div>
+			  </div>
+			</div>
 		  </section>
 		  
 		  
@@ -39,36 +115,36 @@
             </div>
 			<ul class="peta-situs-list">
 			  <li>
-			    <a class="peta-situs-link" href="index.php">Home</a>
+			    <a aria-label="Home" title="Home" class="peta-situs-link" href="index.php">Home</a>
 			  </li>
 			  <li>
-			    <a class="peta-situs-link" href="console/">News</a>
+			    <a aria-label="News" title="News" class="peta-situs-link" href="console/">News</a>
 			  </li>
 			  <li>
-			    <a class="peta-situs-link" href="console/">PC</a>
+			    <a aria-label="PC" title="PC" class="peta-situs-link" href="console/">PC</a>
 			  </li>
 			  <li>
-			    <a class="peta-situs-link" href="console/">Console</a>
+			    <a aria-label="Console" title="Console" class="peta-situs-link" href="console/">Console</a>
 				<ul class="peta-situs-list peta-situs-sub">
 				  <li>
-					<a class="peta-situs-link" href="playstation/">Nintendo</a>
+					<a aria-label="Nintendo" title="Nintendo" class="peta-situs-link" href="playstation/">Nintendo</a>
 				  </li>
 				  <li>
-					<a class="peta-situs-link" href="playstation/">Playstation</a>
+					<a aria-label="Playstation" title="Playstation" class="peta-situs-link" href="playstation/">Playstation</a>
 				  </li>
 				  <li>
-					<a class="peta-situs-link" href="playstation/">Xbox</a>
+					<a aria-label="Xbox" title="Xbox" class="peta-situs-link" href="playstation/">Xbox</a>
 				  </li>
 				</ul>
 			  </li>
 			  <li>
-			    <a class="peta-situs-link" href="mobile/">Mobile</a>
+			    <a aria-label="Mobile" title="Mobile" class="peta-situs-link" href="mobile/">Mobile</a>
 			  </li>
 			  <li>
-			    <a class="peta-situs-link" href="esports/">Esports</a>
+			    <a aria-label="Esports" title="Esports" class="peta-situs-link" href="esports/">Esports</a>
 			  </li>
 			  <li>
-			    <a class="peta-situs-link" href="wifi-coin/">Wifi Coin</a>
+			    <a aria-label="Wifi Coin" title="Wifi Coin" class="peta-situs-link" href="wifi-coin/">Wifi Coin</a>
 			  </li>
 			</ul>
 		  </section>
@@ -85,7 +161,35 @@
             <div class="section-title">
               <h2 class="section-title-name">Kontak Kami</h2>
             </div>
-		    
+		    <div class="kontak-kami-container">
+			  <div class="kkc-map">
+			    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0765846237223!2d106.83074741510345!3d-6.253640295473413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3cebdd961fd%3A0x8c94ebbe1c452fc3!2sIndogamers!5e0!3m2!1sen!2sid!4v1659512916599!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			  </div>
+			  <div class="kkc-address">
+				<b>IDGS HQ</b>
+				<p>Rukan Duren Tiga Blok 7K</p>
+				<p>Jl. Duren Tiga Raya No. 7</p>
+				<p>Jakarta Selatan, 12760</p>
+			  </div>
+			  <div class="kkc-list">
+			    <a aria-label="Mobile IDGS" title="Mobile IDGS" class="kkc-link" href="tel:082111118624">
+				  <?php require ($_SERVER['IDGS'].'img/icon/phone.svg')?>
+				  <span>082111118624</span>
+				</a>
+			    <a aria-label="Whatsapp IDGS" title="Whatsapp IDGS" class="kkc-link" href="https://api.whatsapp.com/send?phone=6282111118624">
+				  <?php require ($_SERVER['IDGS'].'img/icon/whatsapp-outline.svg')?>
+				  <span>082111118624</span>
+				</a>
+			    <a aria-label="Email Redaksi IDGS" title="Email Redaksi IDGS" class="kkc-link" href="mailto:redaksi@indogamers.com">
+				  <?php require ($_SERVER['IDGS'].'img/icon/mail.svg')?>
+				  <span>redaksi@indogamers.com</span>
+				</a>
+			    <a aria-label="Email Partnership IDGS" title="Email Partnership IDGS" class="kkc-link" href="mailto:partnership@indogamers.com">
+				  <?php require ($_SERVER['IDGS'].'img/icon/mail.svg')?>
+				  <span>partnership@indogamers.com</span>
+				</a>
+			  </div>
+			</div>
 		  </section>
         </div>
       </div>
@@ -106,20 +210,15 @@
 			  <p>Media siber memiliki karakter khusus sehingga memerlukan pedoman agar pengelolaannya dapat dilaksanakan secara profesional, memenuhi fungsi, hak, dan kewajibannya sesuai Undang-Undang Nomor 40 Tahun 1999 tentang Pers dan Kode Etik Jurnalistik. Untuk itu Dewan Pers bersama organisasi pers, pengelola media siber, dan masyarakat menyusun Pedoman Pemberitaan Media Siber sebagai berikut:</p>
 
 			  <ol>
-
-				<!-- list pedoman -->
 				<li>
 				  <b>Ruang Lingkup</b>
-				  <ol>
+				  <ol class="list-abjad">
 					<li>Isi Buatan Pengguna (User Generated Content) adalah segala isi yang dibuat dan atau dipublikasikan oleh pengguna media siber, antara lain, artikel, gambar, komentar, suara, video dan berbagai bentuk unggahan yang melekat pada media siber, seperti blog, forum, komentar pembaca atau pemirsa, dan bentuk lain.</li>
 				  </ol>
 				</li>
-				<!-- end list pedoman -->
-
-				<!-- list pedoman -->
 				<li>
 				  <b>Verifikasi dan Keberimbangan Berita</b>
-				  <ol>
+				  <ol class="list-abjad">
 					<li>Pada prinsipnya setiap berita harus melalui verifikasi.</li>
 					<li>Berita yang dapat merugikan pihak lain memerlukan verifikasi pada berita yang sama untuk memenuhi prinsip akurasi dan keberimbangan.</li>
 					<li>Ketentuan dalam butir (a) di atas dikecualikan, dengan syarat:
@@ -133,9 +232,6 @@
 					<li>Setelah memuat berita sesuai dengan butir (c), media wajib meneruskan upaya verifikasi, dan setelah verifikasi didapatkan, hasil verifikasi dicantumkan pada berita pemutakhiran (update) dengan tautan pada berita yang belum terverifikasi.</li>
 				  </ol>
 				</li>
-				<!-- end list pedoman -->
-
-				<!-- list pedoman -->
 				<li>
 				  <b>Isi Buatan Pengguna (User Generated Content)</b>
 				  <ol>
@@ -155,9 +251,6 @@
 					<li>Media siber bertanggung jawab atas Isi Buatan Pengguna yang dilaporkan bila tidak mengambil tindakan koreksi setelah batas waktu sebagaimana tersebut pada butir (f).</li>
 				  </ol>
 				</li>
-				<!-- end list pedoman -->
-
-				<!-- list pedoman -->
 				<li>
 				  <b>Ralat, Koreksi, dan Hak Jawab</b>
 				  <ol>
@@ -174,9 +267,6 @@
 					<li>Sesuai dengan Undang-Undang Pers, media siber yang tidak melayani hak jawab dapat dijatuhi sanksi hukum pidana denda paling banyak Rp500.000.000 (Lima ratus juta rupiah).</li>
 				  </ol>
 				</li>
-				<!-- end list pedoman -->
-
-				<!-- list pedoman -->
 				<li>
 				  <b>Pencabutan Berita</b>
 				  <ol>
@@ -185,9 +275,6 @@
 					<li>Pencabutan berita wajib disertai dengan alasan pencabutan dan diumumkan kepada publik.</li>
 				  </ol>
 				</li>
-				<!-- end list pedoman -->
-
-				<!-- list pedoman -->
 				<li>
 				  <b>Iklan</b>
 				  <ol>
@@ -195,34 +282,22 @@
 					<li>Setiap berita/artikel/isi yang merupakan iklan dan atau isi berbayar wajib mencantumkan keterangan ”advertorial”, ”iklan”, ”ads”, ”sponsored”, atau kata lain yang menjelaskan bahwa berita/artikel/isi tersebut adalah iklan.</li>
 				  </ol>
 				</li>
-				<!-- end list pedoman -->
-
-				<!-- list pedoman -->
 				<li>
 				  <b>Hak Cipta</b>
 				  <div>Media siber wajib menghormati hak cipta sebagaimana diatur dalam peraturan perundang-undangan yang berlaku.</div>
 				</li>
-				<!-- end list pedoman -->
-
-				<!-- list pedoman -->
 				<li>
 				  <b>Pencantuman Pedoman</b>
 				  <div>Media siber wajib mencantumkan Pedoman Pemberitaan Media Siber ini di medianya secara terang dan jelas.</div>
 				</li>
-				<!-- end list pedoman -->
-
-				<!-- list pedoman -->
 				<li>
 				  <b>Sengketa</b>
 				  <div>Penilaian akhir atas sengketa mengenai pelaksanaan Pedoman Pemberitaan Media Siber ini diselesaikan oleh Dewan Pers.</div>
 				</li>
-				<!-- end list pedoman -->
-
 			  </ol> 
-
+			  
 			  <p>Jakarta, 3 Februari 2012 <br>
-			(Pedoman ini ditandatangani oleh Dewan Pers dan komunitas pers di Jakarta, 3 Februari 2012).</p>
-
+			  (Pedoman ini ditandatangani oleh Dewan Pers dan komunitas pers di Jakarta, 3 Februari 2012).</p>
 			  <p>Sumber: http://dewanpers.or.id/</p>
 			</div>
 		  </section>
@@ -288,11 +363,41 @@
 	
       <div class="column-right column-small">
         <div class="column-container column-sticky">
-          <section aria-label="Karir" id="karir" class="section-container Disclaimer">
+          <section aria-label="Karir" id="karir" class="section-container karir">
             <div class="section-title">
               <h2 class="section-title-name">Karir</h2>
             </div>
-		    
+		    <div class="karir-container">
+			  <div class="karir-box">
+			    <div class="karir-title">System Administrator</div>
+				<ul class="karir-list">
+                  <li>Male, age maximum 30 years</li>
+                  <li>Minimum S1 from reputable University </li>
+                  <li>Experience min. 2 years as system administrator</li>
+                  <li>Good Knowledge for using QS Linux & Linux Server</li>
+                  <li>Having Knowledge AWS Cloud System</li>
+                  <li>Ability for MongoDB, MySQL, NodeJS, Bash Script</li>
+                  <li>Great to have Clustering Storage, Proxmox Cluster</li>
+                  <li>Great to have experinece using Git Repository, Jenkins</li>
+                  <li>Able to work under pressure, great team work and proactive</li>
+				</ul>
+			  </div>
+			  
+			  <div class="karir-box">
+			    <div class="karir-title">System Administrator</div>
+				<ul class="karir-list">
+                  <li>Male, age maximum 30 years</li>
+                  <li>Minimum S1 from reputable University </li>
+                  <li>Experience min. 2 years as system administrator</li>
+                  <li>Good Knowledge for using QS Linux & Linux Server</li>
+                  <li>Having Knowledge AWS Cloud System</li>
+                  <li>Ability for MongoDB, MySQL, NodeJS, Bash Script</li>
+                  <li>Great to have Clustering Storage, Proxmox Cluster</li>
+                  <li>Great to have experinece using Git Repository, Jenkins</li>
+                  <li>Able to work under pressure, great team work and proactive</li>
+				</ul>
+			  </div>
+			</div>
 		  </section>
         </div>
       </div>
