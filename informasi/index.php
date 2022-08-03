@@ -382,21 +382,6 @@
                   <li>Able to work under pressure, great team work and proactive</li>
 				</ul>
 			  </div>
-			  
-			  <div class="karir-box">
-			    <div class="karir-title">System Administrator</div>
-				<ul class="karir-list">
-                  <li>Male, age maximum 30 years</li>
-                  <li>Minimum S1 from reputable University </li>
-                  <li>Experience min. 2 years as system administrator</li>
-                  <li>Good Knowledge for using QS Linux & Linux Server</li>
-                  <li>Having Knowledge AWS Cloud System</li>
-                  <li>Ability for MongoDB, MySQL, NodeJS, Bash Script</li>
-                  <li>Great to have Clustering Storage, Proxmox Cluster</li>
-                  <li>Great to have experinece using Git Repository, Jenkins</li>
-                  <li>Able to work under pressure, great team work and proactive</li>
-				</ul>
-			  </div>
 			</div>
 		  </section>
         </div>
