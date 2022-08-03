@@ -155,7 +155,7 @@ display:flex; justify-content:center; align-items:center; color:var(--bg-2);}
 
 
 @media screen and (min-width:1024px){
-  .wifi-coin-button{color:#746eaa; font-weight:900; text-transform:uppercase;}
+  .wifi-coin-button{color:#7b7ab3; font-weight:900; text-transform:uppercase;}
   .wifi-coin-button:hover{color:#412e5c !important;}
   
   
