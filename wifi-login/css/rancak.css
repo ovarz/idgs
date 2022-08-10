@@ -1,0 +1,69 @@
+*,html,:before,:after{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;-moz-box-sizing:border-box;box-sizing:border-box;font-size:100%;text-align:left}img{color:transparent;font-size:0;vertical-align:middle;-ms-interpolation-mode:bicubic}ol,ul{list-style:none}li{display:list-item}a img{border:0}a{text-decoration:none}b,strong{font-weight:700}i,em{font-style:italic}img{max-width:100%}.btn,input[type=button],select,button{-webkit-appearance:none;cursor:pointer;background-color:transparent}.hide{display:none;}
+
+
+
+:root, :before, :after{
+  --site-container:610px;
+  --size-1:5px;
+  --size-2:8px;
+  --size-3:13px;
+  --size-4:21px;
+  --size-5:34px;
+  --size-6:55px;
+  --size-7:89px;
+  --max-zindex:2147483648;
+  --default-fontsize:16px;
+  --title-fontsize:20px;
+  --bg-1:#2F132C; 
+}
+
+
+
+body, html{font-family:'Nunito',sans-serif; font-size:var(--default-fontsize); font-weight:500; letter-spacing:0.4px; font-feature-settings:'lnum' 1; 
+-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; 
+-moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed;}
+html{scroll-behavior:smooth;}
+body{background-color:var(--bg-1);}
+.btn, a.btn, button.btn{padding:var(--size-3) var(--size-4); font-weight:normal; -webkit-appearance:none; text-transform:capitalize; 
+display:flex; text-align:center; align-items:center; justify-content:center;}
+.content_center{display:flex; justify-content:center; align-items:center;}
+.width-max{position:relative; width:100%; max-width:var(--site-container); margin:0 auto;}
+
+
+
+header{padding:0 var(--size-5);}
+header > .width-max{display:grid; grid-template-columns:1fr 1fr;}
+.header-idgs, .header-info{height:var(--size-7);}
+.header-idgs{justify-content:flex-start;}
+.header-info{justify-content:flex-end;}
+.header-info-name{font-weight:900; text-align:right;}
+
+
+
+.rancak-container{position:relative; min-height:calc(100vh - var(--size-5) - var(--size-7)); padding:var(--size-5);}
+.rancak-container > .width-max{display:block;}
+
+
+
+footer{padding:0 var(--size-4); height:var(--size-5); display:flex; justify-content:center; align-items:center; font-size:12px;}
+
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:1023px){
+  
+}
+
+
+
+
+
+
+
+@media screen and (min-width:1024px){
+  .header-idgs svg{width:auto; height:var(--size-6);}
+  .header-info-name{font-size:24px;}
+}

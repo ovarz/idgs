@@ -68,6 +68,12 @@
                     <li><a class="pagelist-row" href="informasi/#karir">Karir</a></li>
                   </ul>
                 </li>
+                <li>
+                  <div class="pagelist-row">Halaman Login Wifi</div>  
+                  <ul>
+                    <li><a class="pagelist-row" href="wifi-login/">Halaman Utama</a></li>
+                  </ul>
+                </li>
 			  </ul>
 			</div>
 		</div>
