@@ -1,6 +1,6 @@
 <?php 
-  $page='voucher';
-  $category='confirmation';
+  $page='coin';
+  $category='insert';
   $status='notconnect';
   require ('../../inc/base.php')
 ?>
@@ -11,31 +11,23 @@
     <div class="rancak-main">
 	  
 	  <section aria-label="Konfirmasi" class="rancak-main-container">
-        <div class="section-title">Konfirmasi voucher yang akan digunakan</div>
+        <div class="section-title">Silakan masukkan coin 500 atau 1000 kedalam mesin WiFi Coin</div>
         <div class="infobox">
           <ul class="infobox-row">
-		    <li class="infobox-label">Kode Voucher</li>
-		    <li class="infobox-data">IDGS012345</li>
-		  </ul>
-          <ul class="infobox-row">
-		    <li class="infobox-label">Nominal Voucher</li>
-		    <li class="infobox-data">Rp.0.000.000</li>
+		    <li class="infobox-label">Koin yang diterima</li>
+		    <li class="infobox-data">Rp.0</li>
 		  </ul>
           <ul class="infobox-row">
 		    <li class="infobox-label">Durasi Pemakaian</li>
-		    <li class="infobox-data">365 Hari</li>
-		  </ul>
-          <ul class="infobox-row">
-		    <li class="infobox-label">Sisa Pemakaian</li>
-		    <li class="infobox-data">7 Hari</li>
+		    <li class="infobox-data">0 Menit</li>
 		  </ul>
         </div>
 		<div class="default-submit">
 		  <button class="btn default-submit-button default-submit-cancel" onclick="location.href='wifi-login/';">
 		    Batal
 		  </button>
-		  <button class="btn default-submit-button" onclick="location.href='wifi-login/voucher/success.php';">
-		    Gunakan
+		  <button class="btn default-submit-button" onclick="location.href='wifi-login/coin/success.php';">
+		    Selesai
 		  </button>
 		</div>
 	  </section>	

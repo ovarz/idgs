@@ -1,5 +1,5 @@
 <?php 
-  $page='voucher';
+  $page='coin';
   $category='success';
   $status='connect';
   require ('../../inc/base.php')
@@ -17,20 +17,12 @@
 		</div>
         <div class="infobox">
           <ul class="infobox-row">
-		    <li class="infobox-label">Kode Voucher</li>
-		    <li class="infobox-data">IDGS012345</li>
-		  </ul>
-          <ul class="infobox-row">
-		    <li class="infobox-label">Nominal Voucher</li>
-		    <li class="infobox-data">Rp.0.000.000</li>
-		  </ul>
-          <ul class="infobox-row">
-		    <li class="infobox-label">Durasi Pemakaian</li>
-		    <li class="infobox-data">365 Hari</li>
+		    <li class="infobox-label">Koin yang diterima</li>
+		    <li class="infobox-data">Rp.1000</li>
 		  </ul>
           <ul class="infobox-row">
 		    <li class="infobox-label">Sisa Pemakaian</li>
-		    <li class="infobox-data">7 Hari</li>
+		    <li class="infobox-data">60 Menit</li>
 		  </ul>
         </div>
 		<div class="default-submit">
