@@ -3,7 +3,7 @@
 
 
 :root, :before, :after{
-  --site-container:610px;
+  --site-container:568px;
   --size-1:5px;
   --size-2:8px;
   --size-3:13px;
@@ -14,6 +14,7 @@
   --max-zindex:2147483648;
   --default-fontsize:16px;
   --title-fontsize:20px;
+  --float-status-height:42px;
   --bg-1:#2F132C; 
 }
 
@@ -27,6 +28,8 @@ body{background-color:var(--bg-1);}
 .btn, a.btn, button.btn{padding:var(--size-3) var(--size-4); font-weight:normal; -webkit-appearance:none; text-transform:capitalize; 
 display:flex; text-align:center; align-items:center; justify-content:center;}
 .content_center{display:flex; justify-content:center; align-items:center;}
+.section-title{text-align:center; margin-bottom:var(--size-3);}
+.section-title b{display:block; text-align:center; font-weight:900;}
 .width-max{position:relative; width:100%; max-width:var(--site-container); margin:0 auto;}
 
 
@@ -35,13 +38,43 @@ header{padding:0 var(--size-5);}
 header > .width-max{display:grid; grid-template-columns:1fr 1fr;}
 .header-idgs, .header-info{height:var(--size-7);}
 .header-idgs{justify-content:flex-start;}
-.header-info{justify-content:flex-end;}
-.header-info-name{font-weight:900; text-align:right;}
+.header-idgs svg{width:auto;}
+.header-idgs-title{font-weight:900; margin-left:var(--size-2); text-transform:uppercase; line-height:100%;}
+.header-info{font-weight:900; justify-content:flex-end; align-content:center; flex-wrap:wrap;}
+.header-info *{width:100%; text-align:right;}
 
 
 
 .rancak-container{position:relative; min-height:calc(100vh - var(--size-5) - var(--size-7)); padding:var(--size-5);}
 .rancak-container > .width-max{display:block;}
+.rancak-main{display:grid; grid-gap:var(--size-5);}
+
+
+
+.rancak-payment{display:grid; grid-template-columns:repeat(3,1fr);}
+.rancak-payment-button{position:relative;}
+.rancak-payment-button:before{content:''; display:block; padding-top:100%;}
+.rancak-payment-frame{position:absolute; top:0; left:0; width:100%; height:100%; flex-wrap:wrap; align-content:center;}
+.rancak-payment-frame > *{width:100%; text-align:center;}
+.rancak-payment-icon .svgicon{height:auto;}
+.rancak-payment-label{line-height:100%;}
+
+
+
+.form-box{--form-height:var(--size-6); position:relative;}
+.form-field{position:relative; z-index:1; width:100%; height:var(--form-height); border:1px solid; padding:0 var(--size-4);}
+.form-submit-next{position:absolute; z-index:1000; top:0; right:0; width:var(--form-height); height:100%;}
+.form-submit-next .svgicon{width:auto; height:24px;}
+
+
+
+.infobox{display:grid; grid-gap:var(--size-2);}
+.infobox-row{display:grid; grid-gap:var(--size-3); grid-template-columns:144px 1fr;}
+.infobox-data{font-weight:bold; text-align:right;}
+
+
+
+.default-submit{display:grid; grid-gap:var(--size-3); grid-template-columns:repeat(auto-fit, minmax(var(--size-7),1fr)); margin-top:var(--size-3);}
 
 
 
@@ -54,7 +87,28 @@ footer{padding:0 var(--size-4); height:var(--size-5); display:flex; justify-cont
 
 
 @media screen and (min-width:0px) and (max-width:1023px){
+  .header-idgs svg{height:40px;}
+  .header-idgs-title{font-size:20px; max-width:55px;}
   
+  
+  
+  .rancak-payment{grid-gap:var(--size-3);}
+  .rancak-payment-icon .svgicon{width:37%;}
+  .rancak-payment-label{font-size:16px; margin-top:var(--size-2);}
+  
+  
+  
+  .infobox{font-size:14px; padding:var(--size-3);}
+}
+
+
+
+
+
+
+
+@media screen and (min-width:568px){
+  .rancak-payment-label{font-size:20px; margin-top:var(--size-3);}
 }
 
 
@@ -64,6 +118,21 @@ footer{padding:0 var(--size-4); height:var(--size-5); display:flex; justify-cont
 
 
 @media screen and (min-width:1024px){
-  .header-idgs svg{width:auto; height:var(--size-6);}
-  .header-info-name{font-size:24px;}
+  .header-idgs svg{height:48px;}
+  .header-idgs-title{font-size:30px;}
+  .header-info-name{font-size:20px;}
+  
+  
+  
+  .section-title{font-size:24px;}
+  
+  
+  
+  .rancak-payment{grid-gap:var(--size-4);}
+  .rancak-payment-icon .svgicon{width:64px;}
+  .rancak-payment-label{font-size:24px; margin-top:var(--size-4);}
+  
+  
+  
+  .infobox{font-size:16px; padding:var(--size-4);}
 }
