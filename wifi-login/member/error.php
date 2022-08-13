@@ -18,7 +18,7 @@
           </div>
           <div class="form-box form-box-error">
             <input class="form-field" name="" type="password" placeholder="Masukkan Password">
-            <button class="form-password-toggle form-password-hidden content_center">
+            <button title="Password" class="form-password-toggle form-password-hidden content_center">
               <?php require ($_SERVER['IDGS'].'img/icon/password-hidden.svg')?>
               <?php require ($_SERVER['IDGS'].'img/icon/password-show.svg')?>
             </button>
@@ -26,10 +26,10 @@
           </div>
         </div>
 		<div class="default-submit">
-		  <button class="btn default-submit-button default-submit-cancel" onclick="location.href='wifi-login/';">
+		  <button title="Batal" class="btn default-submit-button default-submit-cancel" onclick="location.href='wifi-login/';">
 		    Batal
 		  </button>
-		  <button class="btn default-submit-button" onclick="location.href='wifi-login/member/success.php';">
+		  <button title="Login" class="btn default-submit-button" onclick="location.href='wifi-login/member/success.php';">
 		    Login
 		  </button>
 		</div>

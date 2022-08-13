@@ -30,7 +30,7 @@
 		  </ul>
         </div>
 		<div class="default-submit">
-		  <button class="btn default-submit-button" onclick="location.href='wifi-login/';">
+		  <button title="Kembali ke halaman utama" class="btn default-submit-button" onclick="location.href='wifi-login/';">
 		    Kembali ke halaman utama
 		  </button>
 		</div>

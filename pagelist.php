@@ -74,6 +74,9 @@
                     <li><a class="pagelist-row" href="wifi-login/">Halaman Utama</a></li>
                     <li><a class="pagelist-row" href="wifi-login/coin/">Halaman Isi Coin</a></li>
                     <li><a class="pagelist-row" href="wifi-login/coin/success.php">Halaman Coin Berhasil Digunakan</a></li>
+                    <li><a class="pagelist-row" href="wifi-login/qris/">Halaman Form Pembayaran via QRIS</a></li>
+                    <li><a class="pagelist-row" href="wifi-login/qris/confirmation.php">Halaman Konfirmasi Pembayaran via QRIS</a></li>
+                    <li><a class="pagelist-row" href="wifi-login/qris/success.php">Halaman Sukses Pembayaran via QRIS</a></li>
                     <li><a class="pagelist-row" href="wifi-login/member/">Halaman Login Member</a></li>
                     <li><a class="pagelist-row" href="wifi-login/member/error.php">Halaman Login Gagal</a></li>
                     <li><a class="pagelist-row" href="wifi-login/member/success.php">Halaman Login Berhasil</a></li>

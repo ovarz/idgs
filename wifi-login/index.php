@@ -46,7 +46,7 @@
         <div class="section-title">Atau masukkan kode voucher anda</div>
 		<div class="form-box">
 		  <input class="form-field" name="" type="text" placeholder="Contoh : IDGS012345">
-		  <button class="form-submit-next content_center" onclick="location.href='wifi-login/voucher/';">
+		  <button title="Submit" class="form-submit-next content_center" onclick="location.href='wifi-login/voucher/';">
 		    <?php require ($_SERVER['IDGS'].'img/icon/more.svg')?>
 		  </button>
 		</div>

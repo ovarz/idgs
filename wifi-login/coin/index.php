@@ -23,11 +23,11 @@
 		  </ul>
         </div>
 		<div class="default-submit">
-		  <button class="btn default-submit-button default-submit-cancel" onclick="location.href='wifi-login/';">
+		  <button title="Batal" class="btn default-submit-button default-submit-cancel" onclick="location.href='wifi-login/';">
 		    Batal
 		  </button>
-		  <button class="btn default-submit-button" onclick="location.href='wifi-login/coin/success.php';">
-		    Selesai
+		  <button title="Submit" class="btn default-submit-button" onclick="location.href='wifi-login/coin/success.php';">
+		    Submit
 		  </button>
 		</div>
 	  </section>	

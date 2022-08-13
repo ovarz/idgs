@@ -1,7 +1,7 @@
 <?php 
-  $page='voucher';
-  $category='confirmation';
-  $status='notconnect';
+  $page='qris';
+  $category='success';
+  $status='connect';
   require ('../../inc/base.php')
 ?>
 <?php require ($_SERVER['IDGS'].'wifi-login/inc/meta.php')?>
@@ -11,7 +11,10 @@
     <div class="rancak-main">
 	  
 	  <section aria-label="Konfirmasi" class="rancak-main-container">
-        <div class="section-title">Konfirmasi voucher yang akan digunakan</div>
+        <div class="section-title">
+		  <b>Selamat</b>
+		  WiFi Coin berhasil terhubung
+		</div>
         <div class="infobox">
           <ul class="infobox-row">
 		    <li class="infobox-label">Kode Voucher</li>
@@ -31,11 +34,8 @@
 		  </ul>
         </div>
 		<div class="default-submit">
-		  <button title="Batal" class="btn default-submit-button default-submit-cancel" onclick="location.href='wifi-login/';">
-		    Batal
-		  </button>
-		  <button title="Submit" class="btn default-submit-button" onclick="location.href='wifi-login/voucher/success.php';">
-		    Gunakan
+		  <button title="Kembali ke halaman utama" class="btn default-submit-button" onclick="location.href='wifi-login/';">
+		    Kembali ke halaman utama
 		  </button>
 		</div>
 	  </section>	

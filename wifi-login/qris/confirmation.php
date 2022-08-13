@@ -1,7 +1,7 @@
 <?php 
-  $page='voucher';
+  $page='qris';
   $category='confirmation';
-  $status='notconnect';
+  $status='connect';
   require ('../../inc/base.php')
 ?>
 <?php require ($_SERVER['IDGS'].'wifi-login/inc/meta.php')?>
@@ -11,14 +11,18 @@
     <div class="rancak-main">
 	  
 	  <section aria-label="Konfirmasi" class="rancak-main-container">
-        <div class="section-title">Konfirmasi voucher yang akan digunakan</div>
+        <div class="section-title">
+		  Silakan scan atau download QRIS dibawah ini untuk melanjutkan pembayaran.
+		</div>
+		
+        <div class="qrcode-display">
+          <img alt="QRIS" src="wifi-login/img/qr.png" />
+        </div>
+		
+		
         <div class="infobox">
           <ul class="infobox-row">
-		    <li class="infobox-label">Kode Voucher</li>
-		    <li class="infobox-data">IDGS012345</li>
-		  </ul>
-          <ul class="infobox-row">
-		    <li class="infobox-label">Nominal Voucher</li>
+		    <li class="infobox-label">Nominal Pembelian</li>
 		    <li class="infobox-data">Rp.0.000.000</li>
 		  </ul>
           <ul class="infobox-row">
@@ -31,11 +35,8 @@
 		  </ul>
         </div>
 		<div class="default-submit">
-		  <button title="Batal" class="btn default-submit-button default-submit-cancel" onclick="location.href='wifi-login/';">
-		    Batal
-		  </button>
-		  <button title="Submit" class="btn default-submit-button" onclick="location.href='wifi-login/voucher/success.php';">
-		    Gunakan
+		  <button title="Download QR Code" class="btn" onclick="location.href='wifi-login/qris/success.php';">
+		    Download QR Code
 		  </button>
 		</div>
 	  </section>	
