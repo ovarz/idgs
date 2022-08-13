@@ -53,6 +53,8 @@ border-radius:var(--rounded-3); box-shadow:var(--shadow-default);}
 
 .form-field, .form-button-next{background-color:var(--bg-3); border-radius:var(--rounded-2);}
 .form-field{color:var(--color-text-2); border-color:rgb(var(--color-border) / 13%); box-shadow:var(--shadow-inset);}
+.form-box-error .form-field{border-color:var(--bg-5);}
+.form-box-error .form-note{color:var(--color-text-2);}
 
 
 

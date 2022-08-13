@@ -1,7 +1,7 @@
 <?php 
-  $page='coin';
-  $category='insert';
-  $status='notconnect';
+  $page='member';
+  $category='success';
+  $status='connect';
   require ('../../inc/base.php')
 ?>
 <?php require ($_SERVER['IDGS'].'wifi-login/inc/meta.php')?>
@@ -11,23 +11,27 @@
     <div class="rancak-main">
 	  
 	  <section aria-label="Konfirmasi" class="rancak-main-container">
-        <div class="section-title">Silakan masukkan coin 500 atau 1000 kedalam mesin WiFi Coin saat lampu berwarna hijau</div>
+        <div class="section-title">
+		  <b>Selamat</b>
+		  WiFi Coin berhasil terhubung
+		</div>
         <div class="infobox">
           <ul class="infobox-row">
-		    <li class="infobox-label">Koin yang diterima</li>
-		    <li class="infobox-data">Rp.0</li>
+		    <li class="infobox-label">Username</li>
+		    <li class="infobox-data">ov4rz</li>
 		  </ul>
           <ul class="infobox-row">
-		    <li class="infobox-label">Durasi Pemakaian</li>
-		    <li class="infobox-data">0 Menit</li>
+		    <li class="infobox-label">Masa Berlaku</li>
+		    <li class="infobox-data">30 Hari</li>
+		  </ul>
+          <ul class="infobox-row">
+		    <li class="infobox-label">Batas Waktu</li>
+		    <li class="infobox-data">00 September 0000</li>
 		  </ul>
         </div>
 		<div class="default-submit">
-		  <button class="btn default-submit-button default-submit-cancel" onclick="location.href='wifi-login/';">
-		    Batal
-		  </button>
-		  <button class="btn default-submit-button" onclick="location.href='wifi-login/coin/success.php';">
-		    Selesai
+		  <button class="btn default-submit-button" onclick="location.href='wifi-login/';">
+		    Kembali ke halaman utama
 		  </button>
 		</div>
 	  </section>	

@@ -8,17 +8,24 @@ var open_sticky = function(){
 
 
 
-function CopyLink() {
-  var copyText = document.getElementById("CopyLinkField");
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-  document.execCommand("copy");
-  $('.popup-copied').slideDown('fast').delay(2000).slideUp('fast');
-}
+var custom_password = function(){
+  "use strict";
+  $('.form-password-toggle').click(function(){
+    if($(this).is('.form-password-hidden')){
+     $(this).removeClass('form-password-hidden').addClass('form-password-show');
+     $(this).parent().find("input").attr("type","text");
+    }else{
+     $(this).removeClass('form-password-show').addClass('form-password-hidden');
+     $(this).parent().find("input").attr("type","password");
+    }
+	$(this).find('.fas').toggle();
+  });
+};
 
 
 
 $(document).ready(function(){
   "use strict";
   open_sticky();
+  custom_password();
 });

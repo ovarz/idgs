@@ -63,8 +63,13 @@ header > .width-max{display:grid; grid-template-columns:1fr 1fr;}
 
 .form-box{--form-height:var(--size-6); position:relative;}
 .form-field{position:relative; z-index:1; width:100%; height:var(--form-height); border:1px solid; padding:0 var(--size-4);}
-.form-submit-next{position:absolute; z-index:1000; top:0; right:0; width:var(--form-height); height:100%;}
+.form-note{font-size:11px; margin-top:var(--size-1);}
+.form-submit-next, .form-password-toggle{position:absolute; z-index:1000; top:0; right:0; width:var(--form-height); height:var(--form-height);}
 .form-submit-next .svgicon{width:auto; height:24px;}
+.form-member{display:grid; grid-gap:var(--size-3);}
+.form-password-toggle .svgicon{width:auto; height:18px;}
+.form-password-hidden .svgicon-password-show,
+.form-password-show .svgicon-password-hidden{display:none;}
 
 
 
@@ -124,7 +129,7 @@ footer{padding:0 var(--size-4); height:var(--size-5); display:flex; justify-cont
   
   
   
-  .section-title{font-size:24px;}
+  .section-title{font-size:20px;}
   
   
   

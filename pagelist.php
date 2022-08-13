@@ -72,6 +72,11 @@
                   <div class="pagelist-row">Halaman Login Wifi</div>  
                   <ul>
                     <li><a class="pagelist-row" href="wifi-login/">Halaman Utama</a></li>
+                    <li><a class="pagelist-row" href="wifi-login/coin/">Halaman Isi Coin</a></li>
+                    <li><a class="pagelist-row" href="wifi-login/coin/success.php">Halaman Coin Berhasil Digunakan</a></li>
+                    <li><a class="pagelist-row" href="wifi-login/member/">Halaman Login Member</a></li>
+                    <li><a class="pagelist-row" href="wifi-login/member/error.php">Halaman Login Gagal</a></li>
+                    <li><a class="pagelist-row" href="wifi-login/member/success.php">Halaman Login Berhasil</a></li>
                     <li><a class="pagelist-row" href="wifi-login/voucher/">Halaman Konfirmasi Penggunaan Voucher</a></li>
                     <li><a class="pagelist-row" href="wifi-login/voucher/success.php">Halaman Voucher Berhasil Digunakan</a></li>
                   </ul>
