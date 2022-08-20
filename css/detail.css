@@ -1,4 +1,4 @@
-.content-head{display:grid; grid-gap:var(--size-2); margin-bottom:calc(var(--size-4) * -1);}
+.content-head{display:grid; grid-gap:var(--size-2); margin-bottom:calc(var(--size-5) * -1);}
 .breadcrumb, .content-misc{display:flex; justify-content:center;}
 .breadcrumb > *{margin:0 var(--size-1); text-transform:capitalize;}
 .breadcrumb-link{font-weight:bold;}
