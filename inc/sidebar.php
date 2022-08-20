@@ -1,7 +1,7 @@
 <div class="column-right column-small">
   <div class="column-container column-sticky">
     <?php require ($_SERVER['IDGS'].'iklan/iklan-300x250.php')?>
-	<?php if($page != 'category' && $page != 'subcategory') { ?>
+	<?php if($page != 'home' && $page != 'category' && $page != 'subcategory') { ?>
 	  <?php require ($_SERVER['IDGS'].'module/widget-wificoin.php')?>
 	<?php } ?>
 	
